@@ -1,0 +1,153 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <title>Data</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Weather Web Visualization Dashboard</a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots
+                            <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="temperature.html">Temperature</a>
+                            </li>
+                            <li>
+                                <a href="humidity.html">Humidity</a>
+                            </li>
+                            <li>
+                                <a href="Cloudiness.html">Cloudiness</a>
+                            </li>
+                            <li>
+                                <a href="wind.html">Wind Speed</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="Comparisons.html">Comparison</a>
+                    </li>
+                    <li>
+                        <a href="data.html">Data</a>
+                    </li>
+                </ul>
+            </div>
+  
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                            <a class="nav-link" href="#">Comparison</a>
+                          </li>
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Data <span class="sr-only">(current)</span></a>
+                    </li>
+                  </ul>
+                </div>
+            </nav>
+
+                 <div class="container">
+                <div class="row row-grid">
+                    
+                    <div class="col-md-8">
+                        <div class="box box-left">
+                        <section id="intro">
+                            <h1>Humidity</h1>
+                            <hr>
+                                        <a target="_blank" href="Resources/assets/images/Fig2.png">
+                                            <img id="viz-main" src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity">
+                                        </a>
+                            
+                            <p>There is no clustering or pattern of humidity around the equator. No clear trends can be seen 
+                               in this plot which may indicate Latitude may not have a significant effect on humidity.
+                               Presence or absence of a waterbody, greenbelt cover (higher water vapor) in addition to 
+                               geocoordinates may explain higher or lower humidity percent.
+                            </p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, vero! Laudantium at eos, doloribus id unde blanditiis veritatis doloremque atque cupiditate nihil nulla dolor accusantium, ratione deleniti amet voluptates iste.
+                            </p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa accusamus doloremque facilis assumenda voluptate magni ipsam explicabo voluptatibus cumque! Amet explicabo saepe quisquam officiis iste eligendi sapiente dicta natus illum!</p>
+                        </section>
+                        </div>
+                    </div>
+                
+                    
+                    <div class="col-md-4">
+                        <div class="box box-right">
+                        <h2>Visualizations</h2>
+                        <hr>
+        
+                      
+                      <div class="row">
+                            <div class="col-xs-6 col-sm-3 col-md-6">
+                                  <figure>
+                                      <a href="max temperature.html">
+                                          <img id="landing-viz" src="Resources/assets/images/Fig1.png" alt="Latitude vs. Temperature">
+                                      </a>
+                                  </figure>
+                              </div>
+                          
+                        <div class="col-xs-6 col-sm-3 col-md-6">
+                                <figure>
+                                    <a href="humidity.html">
+                                        <img id="landing-viz" src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity">
+                                    </a>
+                                </figure>
+                            </div>
+      
+                        <div class="col-xs-6 col-sm-3 col-md-6">
+                                <figure>
+                                    <a href="cloudiness.html">
+                                        <img id="landing-viz" src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness">
+                                    </a>
+                                </figure>
+                            </div>
+      
+                        <div class="col-xs-6 col-sm-3 col-md-6">
+                                <figure>
+                                    <a href="windspeed.html">
+                                        <img id="landing-viz" src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed">
+                                    </a>
+                                </figure>
+                            </div>
+        
+                            </div>
+                        </div>
+                      </div>
+                          
+                    </div>
+                </div>
+        
+            
+
+
+              <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+               <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+
+</html>
